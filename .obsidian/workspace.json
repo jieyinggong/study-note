@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "2b77a56079ad9a56",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad708381145ef704",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a953cc0a7dc3a34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC69 - Operating System/Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d31fee25c83da711",
+    "type": "split",
+    "children": [
+      {
+        "id": "c86c9cfd4bf75db8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "197b6aeeb1e8697a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c11ccd15f45752ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "aa785f2d82912ca6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ed7fa8d95cf9d57a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8202842928e0fba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07cfcfcc727fcfd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSCC69 - Operating System/Index.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Index 的反向链接列表"
+            }
+          },
+          {
+            "id": "3b5b998d7c129889",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSCC69 - Operating System/Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Index 的出链列表"
+            }
+          },
+          {
+            "id": "315ba4935e026931",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e1ca0a4786731f66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSCC69 - Operating System/Index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Index 的大纲"
+            }
+          },
+          {
+            "id": "e0ef2798c926e496",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "dfdcd9831cbbc120",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "197b6aeeb1e8697a",
+  "lastOpenFiles": [
+    "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
+    "CSCC69 - Operating System/Index.md",
+    "CSCC69 - Operating System/Pintos/未命名.md",
+    "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.58.32 AM.png",
+    "CSCC69 - Operating System/images",
+    "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.57.03 AM.png",
+    "未命名",
+    "CSCC69 - Operating System/Pintos",
+    "CSCC69 - Operating System",
+    "欢迎.md",
+    "未命名 2",
+    "未命名 1"
+  ]
+}
