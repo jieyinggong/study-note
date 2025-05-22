@@ -1,9 +1,9 @@
 ---
 tags:
   - commands
+  - "#git"
 ---
-# Git & Github
-#git
+
 ## git用户认证
 
 ```bash
