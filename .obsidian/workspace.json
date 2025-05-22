@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 2- Interactive frontends with JS.md",
+                "file": "CSCC09 - Web Development/lecture/Week 2- Interactive frontends with JS.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 2- Interactive frontends with JS.md",
+                "file": "CSCC09 - Web Development/lecture/Week 2- Interactive frontends with JS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -264,10 +264,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "477e5a481c0e9087",
+  "active": "197b6aeeb1e8697a",
   "lastOpenFiles": [
     "CSCC09 - Web Development/lab/lab 3.md",
-    "Week 2- Interactive frontends with JS.md",
+    "CSCC09 - Web Development/lecture/Week 2- Interactive frontends with JS.md",
     "未命名",
     "CSCC09 - Web Development/lecture",
     "cheatsheet/Other commands.md",
