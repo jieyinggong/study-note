@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC69 - Operating System/Index.md",
+                "file": "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Start up - Docker Setting & Dev Container in VScode"
+            }
+          },
+          {
+            "id": "307538f70b448a1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC69 - Operating System/Question 临时区.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Question 临时区"
+            }
+          },
+          {
+            "id": "52a6a01d7120b5d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "regex正则表达式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "regex正则表达式"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC69 - Operating System/Index.md",
+                "file": "regex正则表达式.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Index 的反向链接列表"
+              "title": "regex正则表达式 的反向链接列表"
             }
           },
           {
@@ -113,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC69 - Operating System/Index.md",
+                "file": "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Index 的出链列表"
+              "title": "Start up - Docker Setting & Dev Container in VScode 的出链列表"
             }
           },
           {
@@ -142,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC69 - Operating System/Index.md",
+                "file": "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Index 的大纲"
+              "title": "Start up - Docker Setting & Dev Container in VScode 的大纲"
             }
           },
           {
@@ -180,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,19 +222,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "197b6aeeb1e8697a",
+  "active": "52a6a01d7120b5d2",
   "lastOpenFiles": [
-    "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
+    "常用commands.md",
     "CSCC69 - Operating System/Index.md",
+    "CSCC69 - Operating System/容器内gdb attach vscode bug.md",
+    "CSCC69 - Operating System/配置说明 step by step instruction.md",
+    "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
+    "regex正则表达式.md",
+    "未命名 2",
+    "未命名 1",
+    "CSCC09 - Web Development",
     "CSCC69 - Operating System/Pintos/未命名.md",
     "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.58.32 AM.png",
     "CSCC69 - Operating System/images",
     "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.57.03 AM.png",
-    "未命名",
     "CSCC69 - Operating System/Pintos",
     "CSCC69 - Operating System",
-    "欢迎.md",
-    "未命名 2",
-    "未命名 1"
+    "欢迎.md"
   ]
 }
