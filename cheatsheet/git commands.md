@@ -2,6 +2,7 @@
 tags:
   - commands
   - "#git"
+  - cheatsheet
 ---
 
 ## git用户认证

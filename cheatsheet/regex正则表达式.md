@@ -1,6 +1,6 @@
 ---
 tags:
-  - regex
+  - cheatsheet
 ---
 
 ## **🧠 Regex 正则表达式 Cheatsheet**

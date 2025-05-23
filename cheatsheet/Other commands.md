@@ -1,6 +1,7 @@
 ---
 tags:
   - commands
+  - cheatsheet
 ---
 # Web dev相关
 
@@ -10,3 +11,11 @@ tags:
 browser-sync start --server --no-online --files="**/*"
 ```
 you should have an open tab in your Chrome browser with the URL: `http://localhost:3000/`.
+
+
+
+
+### Prettier
+```
+npx prettier --write .
+```

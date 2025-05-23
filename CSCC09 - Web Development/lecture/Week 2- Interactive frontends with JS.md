@@ -1,7 +1,15 @@
 ---
 tags:
   - lec-note
+  - temp
+  - language
 ---
+![[2. Interactive frontends with JavaScript.pdf]]
+
+###  Practice: 
+[[lab 3 - JavaScript]]
+
+
 **First class functions (functions itself are variables! thus itself can be passed)**
 
 -use es6
@@ -77,6 +85,7 @@ event triggered and then sth happened
   
 
 ## Observer Design Pattern
+#design 
 
 we have something observed → and we have observer to do with it
 
@@ -120,7 +129,6 @@ the global variable will be overwritten
   
 
 ## DOM
-  
 
 Difference between the `onload` and `addEventListener`: one event and multiple events trigger
 if not use `preventDefault()` : it will use default behavior: reload the page!
@@ -130,6 +138,7 @@ when create a new element, it’s a node itself but hasn’t attached to the tre
 
 
 ## Model-View-View model (MVVM)
+#design 
 
   refactor the logic to create and view
 use chirpService to do the operation for chirp
@@ -160,15 +169,11 @@ make own event and then make own event listener
 
 ## meact.js
 
-  
-
 ```jsx
 
 useEffectListeners(key).foreach
 
 ```
-
-  
 
 - setChrips: just auto do everything
 - `setActiveChrip` : set the active chirp, whenever the active chirp change, `meact.useEffect()` happen for only active chirp
@@ -179,7 +184,6 @@ useEffectListeners(key).foreach
 
 ## dev tool
 - console
-
 - debugger
 
   
