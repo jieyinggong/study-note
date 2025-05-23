@@ -4,6 +4,8 @@ tags:
   - temp
 ---
 
+[[CSCC69-Multithreading.pdf]]
+
 ---
 
 - clock interrupt → use to stop cpu and then switch threads
@@ -131,6 +133,7 @@ buffer and lock
 ---
 
 # thinking & questions:
+#question 
 
 1. how PIC connect IRQ, structure of two IRQs
 

@@ -13,58 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC09 - Web Development/lecture/Week 3.md",
+                "file": "CSCC09 - Web Development/lecture/Week 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3"
-            }
-          },
-          {
-            "id": "2c1ee418bca8b0e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC09 - Web Development/lab/lab 3 - JavaScript.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lab 3 - JavaScript"
-            }
-          },
-          {
-            "id": "b76842cdaa1981d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cheatsheet/Operator.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Operator"
-            }
-          },
-          {
-            "id": "3612311a58003193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC09 - Web Development/lab/lab 3 - JavaScript.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lab 3 - JavaScript"
+              "title": "Week 1"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ed7fa8d95cf9d57a",
@@ -236,26 +193,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3612311a58003193",
+  "active": "197b6aeeb1e8697a",
   "lastOpenFiles": [
-    "CSCC09 - Web Development/lab/lab 2 - HTML&CSS.md",
-    "CSCC09 - Web Development/lab/lab 3 - JavaScript.md",
+    "CSCC09 - Web Development/lecture/Week 3.md",
+    "CSCC09 - Web Development/lecture/slides/2. Interactive frontends with JavaScript.pdf",
+    "CSCC69 - Operating System/tutorial/tut 2 - solution.md",
+    "CSCC69 - Operating System/images/Screenshot 2025-05-23 at 12.50.16 PM.png",
+    "CSCC69 - Operating System/images/Screenshot 2025-05-23 at 12.59.28 PM.png",
+    "CSCC69 - Operating System/tutorial/tut 3 - solution.md",
+    "CSCC69 - Operating System/tutorial/tut 1 - solution.md",
+    "CSCC69 - Operating System/images/IMG_2950.jpg",
+    "CSCC69 - Operating System/images/IMG_2829.jpg",
+    "CSCC69 - Operating System/images/IMG_2462.jpg",
+    "CSCC69 - Operating System/images/IMG_2947.jpg",
+    "CSCC69 - Operating System/images/IMG_2849.jpg",
+    "CSCC69 - Operating System/images/IMG_2848.jpg",
+    "CSCC69 - Operating System/images/IMG_2844.jpg",
+    "CSCC69 - Operating System/images/IMG_2842.jpg",
+    "CSCC69 - Operating System/lecture/Week 3 - Threads & Scheduling.md",
     "CSCC69 - Operating System/lecture/Week 2 - Threads.md",
+    "CSCC69 - Operating System/lecture/slides/CSCC69-Scheduling.pdf",
+    "CSCC69 - Operating System/lecture/slides/CSCC69-Multithreading.pdf",
+    "未命名.canvas",
+    "CSCC69 - Operating System/lecture/slides",
+    "CSCC09 - Web Development/lab/lab 3 - JavaScript.md",
+    "CSCC09 - Web Development/lab/lab 2 - HTML&CSS.md",
     "CSCC69 - Operating System/tutorial",
     "CSCC09 - Web Development/lecture/Week 1.md",
-    "CSCC09 - Web Development/images/IMG_2957.jpg",
-    "CSCC09 - Web Development/lecture/Week 3.md",
     "CSCC09 - Web Development/images",
-    "CSCC09 - Web Development/images/IMG_2956.jpg",
     "CSCC09 - Web Development/lecture/Week 2- Interactive frontends with JS.md",
     "CSCC69 - Operating System/Index.md",
-    "CSCC69 - Operating System/images/Screenshot_2025-05-09_at_12.49.29_PM.png",
-    "CSCC69 - Operating System/images/Screenshot_2025-05-09_at_12.00.58_PM.png",
-    "CSCC69 - Operating System/images/Screenshot_2025-05-09_at_11.45.57_AM.png",
     "CSCC69 - Operating System/lecture",
     "cheatsheet/Operator.md",
     "未命名",
-    "CSCC09 - Web Development/lecture/slides/2. Interactive frontends with JavaScript.pdf",
     "cheatsheet/Other commands.md",
     "[lab 3 - JavaScript.md",
     "cheatsheet/regex正则表达式.md",
@@ -263,15 +233,9 @@
     "CSCC69 - Operating System/容器内gdb attach vscode bug.md",
     "CSCC69 - Operating System/配置说明 step by step instruction.md",
     "2. Interactive frontends with JavaScript 2.pptx",
-    "未命名.canvas",
     "2. Interactive frontends with JavaScript 1.pptx",
-    "2. Interactive frontends with JavaScript.pptx",
-    "CSCC09 - Web Development/lecture/slides",
-    "CSCC09 - Web Development/lecture",
     "CSCC69 - Operating System/Pintos/Start up - Docker Setting & Dev Container in VScode.md",
     "CSCC69 - Operating System/Pintos/未命名.md",
-    "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.58.32 AM.png",
-    "CSCC69 - Operating System/images/Screenshot 2025-05-21 at 1.57.03 AM.png",
     "欢迎.md"
   ]
 }
