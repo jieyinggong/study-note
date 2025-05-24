@@ -20,7 +20,6 @@ tags:
 #### Condition variable
 exactly equv to lock, nothing actually change
 
-
 #### Semaphore
 - Semaphore value is a safe property: always ${\ge 0 }$ ❓
 	- if the semaphore value is always greater than 0 -> it will not be blocked
