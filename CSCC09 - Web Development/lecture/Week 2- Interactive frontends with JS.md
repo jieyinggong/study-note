@@ -4,7 +4,7 @@ tags:
   - temp
   - language
 ---
-![[2. Interactive frontends with JavaScript.pdf]]
+[[2. Interactive frontends with JavaScript.pdf]]
 
 ###  Practice: 
 [[lab 3 - JavaScript]]
@@ -94,7 +94,7 @@ we have something observed → and we have observer to do with it
 # Good browser JS practices
 
 ## Strict mode: “use strict”
-```jsx
+```js
 
 "use strict";
 
@@ -107,7 +107,7 @@ we have something observed → and we have observer to do with it
 Closure: encapsulate
 When run in the scope (the round bracket `()`),the function become local
 
-```jsx
+```js
 
   
 
