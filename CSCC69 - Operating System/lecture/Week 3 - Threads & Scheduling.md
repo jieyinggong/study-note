@@ -71,11 +71,17 @@ semaphore 和 lock的差别 ？好处？ 更灵活？
 
 
 ---
-## Deadlock
 
-### two ways to solve
+## Implementing synchronization constructs
 
+**Two way**:
+-  implement locks first (Linux approach) and build semaphores and condition variable on the top
+	- Linux has two versions: 
+		- Spin lock (non-blocking) 
+		- Mutex (blocking)
+- implement semaphores first (Pintos approach) and build locks and condition variable on top
 
+❓ spin lock v.s. sleeping lock ?
 ### spin lock
 problem is that it can be interrupted 
 so  it handle the interrupt and let it not be interrupted ?
@@ -223,9 +229,11 @@ different os and difference choices depend on their usage
 # 需要好好再多看看的
 #question
 - ~~两周前学了什么已经快忘的差不多了hmmm...全部一起重新理一遍吧~~
-- Semaphore P & V; good use and bad use how to avoid deadlock 
-- 各个问题和fix 方法； 每个bad use导致的问题和good use how to fix it
-- 核心还是资源竞争， 资源的调取和各个冲突什么的感觉
-- preemptive? once it's running we can interrupt it
+- ~~Semaphore P & V;~~ 
+- ~~good use and bad use how to avoid deadlock~~ 
+- ~~各个问题和fix 方法； 每个bad use导致的问题和good use how to fix it~~
+- synchronization construct implementation
+- ~~核心还是资源竞争， 资源的调取和各个冲突什么的感觉~~
+- preemptive? once it's running we can interrupt it 什么意思啊thread 先发制人？
 - time quantum 不能过大的原因
 - Starvation of high priority thread for MLQ and why MLFQ solve this
