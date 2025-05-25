@@ -21,18 +21,53 @@ tags:
 exactly equv to lock, nothing actually change
 
 #### Semaphore
-- Semaphore value is a safe property: always ${\ge 0 }$ ❓
-	- if the semaphore value is always greater than 0 -> it will not be blocked
-	- if the semaphore value is equal to 0 -> it might be blocked
+[[CSCC69-Multithreading.pdf#page=37|CSCC69-Multithreading, p.37]]
+Semaphores are **“integers”** that support two operation:
+- `Semaphore::P()`-> decrement, **block until semaphore is open**
+	- a.k.a `wait()`, or `sem_wait()`, or `sema_down()`
+- `Semaphore::V()`-> increment, allow another thread to enter
+	- a.k.a `signal()`, or `sem_post()`, or `sema_up()`
+
+- Semaphore value **safe property: always ${\ge 0 }$**
+	- if the semaphore value is always greater than 0 -> it will not be blocked （好像是的吧）
+	- if the semaphore value is equal to 0 -> it might be **blocked**
 - Producer and consumer can be in the critical section **at the same time**
 	- so need to be careful here (for deadlock)
+
+**Blocking mechanism**
+Associated with each semaphore is a queue of waiting threads
+- When **`P()`** is called by a **thread**: ***decrement***
+	- If semaphore is open, thread continue 
+	- If semaphore is closed, thread **blocks** on queue
+- Then **V( )** opens the **semaphore**: ***increment***
+	- If a thread is waiting on the queue, the thread is unblocked 
+	- If no threads are waiting on the queue, the signal is remembered for the next thread
+
+semaphore 和 lock的差别 ？好处？ 更灵活？
+- ❓还是不太理解这里的semaphore value
+-  semaphore 作为 mutex 是有特指semaphore value 为1的情况嘛？
+
 #### Comparing good use and bad use
 - why good use avoid deadlock here ❓
+- ***Bad use 1:** [[CSCC69-Multithreading.pdf#search=(Bad) Producers Consumers using a semaphor|CSCC69-Multithreading, p.39]]
+- ![[Screenshot 2025-05-24 at 8.50.12 PM.png]]
+	- 这里producer和consumer会同时在critical section --> race condition
+			- 是因为`not_full`是n 如果大于 1 的话...not_full 不会在consumer 跑的时候block？ 
+	- 需要再单独加一个mutex来控制只有一个thread在critical section中
+		- `sem_init(mutex, 1)`
 
+- **Bad use 2:**[[CSCC69-Multithreading.pdf#search=(Bad) Producers Consumers using a semaphor|CSCC69-Multithreading, p.40]]
+- ![[Screenshot 2025-05-24 at 8.47.40 PM.png]]
+	- 这里- cpu may completely block and frozen -> **DEADLOCK**
+		- 这里consumer可能会先运行`sem_wait(mutex)`导致`mutex` block --> producer needs to wait for consumer release `mutex`
+		- 而producer 一直wait block 在`sem_wait(mutex)`这里，无法跑到下面 `sem_signal(not_empty)`release `not_empty` 导致 `not_empty` 是block的 --> consumer needs to wait for producer release `not_empty`
+- 啊哈这里问过某人所以看懂了呢ww
 
-**BAD USE OF SEMAPHORE:**
-- cpu may completely block and frozen -> **DEADLOCK**
-
+- **Good use:** [[CSCC69-Multithreading.pdf#search=(Good) Producers Consumers using semaphore|CSCC69-Multithreading, p.42]]
+![[Screenshot 2025-05-24 at 8.45.34 PM.png]]
+- 这里调换顺序之后可以让consumer先`sem_wait(not_empty)` block 在 `not_empty` 不会去动`mutex` --> producer 就不会block住可以自己release `mutex`然后正常跑
+- 等producer跑完然后release `not_empty`之后consumer才可以跑下去，之后再`sem_wait(mutex)` 也不会让producer和consumer在同一个critical section中
+- 但是这能完全解决嘛...？ 万一consumer接收到unblock 的signal慢了一点，让producer的`sem_wait(mutex)` 跑到了前面呢？consumer会一直waiting嘛？这是可能的嘛？
 
 
 ---
@@ -168,7 +203,6 @@ If same priority, do round-robin.
 - **Solution:** priority donation
 	- give its high priority to lower priority and release the lock
 
-
 ### MLFQ - Multilevel Feedback Queue Scheduling (preemptive)
 Same as MLQ but change the priority of the process based on observations
 
@@ -188,7 +222,7 @@ different os and difference choices depend on their usage
 
 # 需要好好再多看看的
 #question
-- 两周前学了什么已经快忘的差不多了hmmm...全部一起重新理一遍吧
+- ~~两周前学了什么已经快忘的差不多了hmmm...全部一起重新理一遍吧~~
 - Semaphore P & V; good use and bad use how to avoid deadlock 
 - 各个问题和fix 方法； 每个bad use导致的问题和good use how to fix it
 - 核心还是资源竞争， 资源的调取和各个冲突什么的感觉

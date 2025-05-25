@@ -36,6 +36,7 @@ tags:
 IRQs ← managed by two programmable interrupt controllers (PIC) (master - slave)
 ❓*这个master and slave 结构的意义是什么？ 处理priority？为什么要两个？*
 不太理解这里的irq和pic结构
+
 **Programmable Interrupt Controllers (PIC):** Responsible to tell CPU when and which devices wishes to interrupt through the **INTR vector**
 - -> **INTR vector**:
 	- external interrupt → hardware
@@ -118,7 +119,7 @@ The OS maintains a collection of queues with TCBs of all threads
 
 → non-deterministic for the outcome of x → different possible outcomes
  
-**race-condition problems: **
+**race-condition problems:**
 - **The system behaviours depends on the sequence or timing of events that is non-deterministic.**
   
 ---
